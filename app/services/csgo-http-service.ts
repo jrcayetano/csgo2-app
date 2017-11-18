@@ -7,14 +7,23 @@ import "rxjs/add/operator/do";
 
 @Injectable()
 export class CSGOHttpGetService {
-    private serverUrl = "http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=730&key=6B7AF279CBF33E0D7AE254E9236FCF99";
-    // http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=730&key=6B7AF279CBF33E0D7AE254E9236FCF99&steamid=76561198224522144
+    private _apiKey = '6B7AF279CBF33E0D7AE254E9236FCF99';
+    private _apiKey2 = '9B2266D26FF1EEA14F77DFA355BF8FFB';
+    private _appid = '730';
+    private _serverUrl = "http://api.steampowered.com";
     constructor(private http: Http) { }
 
     getDataByUser(idUser) {
         idUser = "76561198224522144";
-        console.log('>>>>>>');
-        return this.http.get(`${this.serverUrl}&steamid=${idUser}`).map(res => res.json());
+        const endPoint = '/ISteamUserStats/GetUserStatsForGame/v0002';
+        return this.http.get(`${this._serverUrl}${endPoint}/?appid=${this._appid}&key=${this._apiKey}&steamid=${idUser}`).map(res => res.json());
+    }
+    getUserStatus(idUser) {
+        // https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=9B2266D26FF1EEA14F77DFA355BF8FFB&steamids=76561198224522144
+        idUser = "76561198224522144";
+        const endPoint = '/ISteamUser/GetPlayerSummaries/v2';
+        //const url = "https://api.steampowered.com/ISteamUser/GetPlayerSummaries/v2/?key=9B2266D26FF1EEA14F77DFA355BF8FFB&steamids=76561198224522144"
+        return this.http.get(`${this._serverUrl}${endPoint}/?key=${this._apiKey2}&steamids=${idUser}`).map(res => res.json());
     }
     /*
     getData() {
