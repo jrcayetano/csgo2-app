@@ -2,10 +2,12 @@ C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\app.component.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\app.module.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\app.routing.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\main.js
+C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\home\home.component.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\item\item-detail.component.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\item\item.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\item\item.service.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\item\items.component.js
+C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\services\csgo-http-service.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-angular\common.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-angular\dom-adapter.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-angular\element-registry.js
@@ -79,6 +81,8 @@ C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativ
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-intl\index.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl-common.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl.js
+C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-local-notifications\local-notifications-common.js
+C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-local-notifications\local-notifications.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application.js

@@ -3,30 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
-        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_b6664d2f24e902383a2113f896434e5d955393d0.jar" />
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\android.arch.lifecycle-runtime-1.0.0_b97b083b232066b882c01525c91691bd7361807a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-26.0.0-alpha1_a3521e1bba78917ea43f274ac08256ff2ee682a1.jar" />
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-v4-26.1.0_c44b399c46d23b93a63528940d0111f3f58e78cf.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jar="C:\Users\joser\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_266a2f7d09024ab9a07b24a491f40dcddb9cd3ba.jar" />
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\common-1.0.0_49aba54a78ec4cf3826ee2e3568ad090bf230bc7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,15 +57,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-media-compat-26.0.0-alpha1_1b469bd52e10b079870ef56a96e2caf91f7fe029.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -75,12 +66,138 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\joser\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\support-annotations-26.1.0_1d5416be7a0416ddd9d7352a0fe34948166906dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
         <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-26.0.0-alpha1_bdfa3d835cbd10d22fa285492e5b1487f6eff1bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\nativescript-optimized\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-nativescript-optimized_3c7f44f67e19a4d6733823709fac2f9f34e91cc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-compat-26.0.0-alpha1_323f044be703395b10f3181372c067323461dbb7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-fragment-26.0.0-alpha1_4201ce39ac5f9dce41642d479f6db3c7739caa2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\node_modules\nativescript-local-notifications\platforms\android\libs\localnotlib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49abc36c8871b5e5d0bc5d1f681056cc5fccb85f">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\localnotlib_15a1571b9d18de8b1432f4f4c985dd395cbd9043.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_b6664d2f24e902383a2113f896434e5d955393d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\common-1.0.0_a1c986d0461b749b76c7ec8c37092c26353e6e39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-26.0.0-alpha1_a3521e1bba78917ea43f274ac08256ff2ee682a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_266a2f7d09024ab9a07b24a491f40dcddb9cd3ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-compat-26.1.0_dd69fdd9b32123272005c8488bd3497302e0c658.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-fragment-26.1.0_618379732b8c3c98ae764e0680f0dcf80466cd98.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-media-compat-26.0.0-alpha1_1b469bd52e10b079870ef56a96e2caf91f7fe029.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-core-ui-26.1.0_68ec553fba5a079ee733428b4dc61b510b6271f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-media-compat-26.1.0_a350f7cd04b93fce953cd4df15faf8e392f1dc7e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,15 +219,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\nativescript-optimized\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
-        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-nativescript-optimized_3c7f44f67e19a4d6733823709fac2f9f34e91cc2.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -120,21 +228,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-compat-26.0.0-alpha1_323f044be703395b10f3181372c067323461dbb7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-fragment-26.0.0-alpha1_4201ce39ac5f9dce41642d479f6db3c7739caa2d.jar" />
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\Users\joser\csgo2-app\platforms\android\build\intermediates\pre-dexed\F0F1\debug\com.android.support-support-core-utils-26.1.0_89041162d83b03f4b39fb3b90f96ee85ccbaae9b.jar" />
     </item>
 
 </items>
