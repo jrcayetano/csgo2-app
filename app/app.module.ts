@@ -10,6 +10,7 @@ import { ItemDetailComponent } from "./item/item-detail.component";
 import { HomeComponent } from "./home/home.component";
 import { CSGOHttpGetService } from './services/csgo-http-service';
 import { NativeScriptUIChartModule } from "nativescript-pro-ui/chart/angular";
+import { NativeScriptUIListViewModule } from "nativescript-pro-ui/listview/angular";
 
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
@@ -26,7 +27,8 @@ import { NativeScriptUIChartModule } from "nativescript-pro-ui/chart/angular";
         NativeScriptModule,
         AppRoutingModule,
         NativeScriptHttpModule,
-        NativeScriptUIChartModule
+        NativeScriptUIChartModule,
+        NativeScriptUIListViewModule
     ],
     declarations: [
         AppComponent,

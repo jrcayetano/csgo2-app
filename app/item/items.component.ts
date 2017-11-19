@@ -6,6 +6,7 @@ import { CSGOHttpGetService } from "../services/csgo-http-service";
 import {Observable} from 'rxjs/Rx';
 import * as Dialogs from "ui/dialogs";
 import * as LocalNotifications from "nativescript-local-notifications";
+import * as Xml2js from 'nativescript-xml2js';
 
 @Component({
     selector: "ns-items",
@@ -22,6 +23,9 @@ export class ItemsComponent implements OnInit {
     constructor(private itemService: ItemService, private csgoSrv:CSGOHttpGetService) { }
 
     ngOnInit(): void {
+        Xml2js.parseString('<root>Hellooo</root>', (err, result) => {
+            console.dir(result);
+        } );
         this.items = this.itemService.getItems();
         this.csgoSrv.getDataByUser('id').subscribe(dataUser => {
             this.datos = dataUser;

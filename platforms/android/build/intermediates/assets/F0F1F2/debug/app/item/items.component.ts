@@ -6,6 +6,7 @@ import { CSGOHttpGetService } from "../services/csgo-http-service";
 import {Observable} from 'rxjs/Rx';
 import * as Dialogs from "ui/dialogs";
 import * as LocalNotifications from "nativescript-local-notifications";
+import * as Xml2js from 'nativescript-xml2js';
 
 @Component({
     selector: "ns-items",
@@ -31,8 +32,9 @@ export class ItemsComponent implements OnInit {
         Observable.interval(500 * 60).subscribe( x => {
             this.csgoSrv.getUserStatus('id').subscribe(dataUserStatus => {
                 this.userStatus = dataUserStatus;
-                // this._sendNotification();
                 console.dir(this.userStatus);
+                // this._sendNotification();
+                // console.dir(this.userStatus);
                 if (!this.avisado && this.userStatus[0]['gameid'] && this.userStatus[0]['gameid'] === '730') {
                     this._sendNotification();
                     this.avisado = true;

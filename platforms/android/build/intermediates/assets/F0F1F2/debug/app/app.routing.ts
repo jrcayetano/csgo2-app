@@ -8,7 +8,7 @@ import { HomeComponent } from "./home/home.component";
 
 
 const routes: Routes = [
-    { path: "", redirectTo: "/statistic", pathMatch: "full" },
+    { path: "", redirectTo: "/items", pathMatch: "full" },
     { path: "statistic", component:HomeComponent},
     { path: "items", component: ItemsComponent },
     { path: "item/:id", component: ItemDetailComponent },

@@ -11,12 +11,16 @@
     "nativescript-local-notifications": true,
     "nativescript-pro-ui": true,
     "nativescript-theme-core": true,
+    "nativescript-xml2js": true,
     "reflect-metadata": true,
     "rxjs": true,
     "tns-core-modules": true,
     "zone.js": true,
     "tslib": true,
     "nativescript-intl": true,
+    "events": true,
+    "sax": true,
+    "xmlbuilder": true,
     "symbol-observable": true,
     "tns-core-modules-widgets": true
 }
