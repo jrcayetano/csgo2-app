@@ -1,1 +1,17 @@
-<label text="hola"></label>
+<!-- >> chart-angular-axis-styling -->
+<ScrollView sdkExampleTitle sdkToggleNavButton>
+    <GridLayout class="m-15" rows="auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto">
+        <label text="home"></label>
+
+        <RadCartesianChart tkExampleTitle tkToggleNavButton>
+            <LinearAxis tkCartesianHorizontalAxis labelTextColor="Green"></LinearAxis>
+            <CategoricalAxis tkCartesianVerticalAxis labelTextColor="#cb4b16" labelSize="5" lineThickness="2" lineColor="Red"></CategoricalAxis>
+            <BarSeries tkCartesianSeries [items]="datos" categoryProperty="name" valueProperty="value"></BarSeries>
+        </RadCartesianChart>
+    </GridLayout>
+</ScrollView>
+
+<!-- << chart-angular-axis-styling -->
+<!-- << chart-angular-axis-styling -->
+<!-- << chart-angular-axis-styling -->
+<!-- << chart-angular-axis-styling -->

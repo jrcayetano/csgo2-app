@@ -83,6 +83,7 @@ C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativ
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-intl\nativescript-intl.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-local-notifications\local-notifications-common.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-local-notifications\local-notifications.js
+C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\nativescript-pro-ui\scripts\eula-prompt.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\bundle-entry-points.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application-common.js
 C:\Users\joser\csgo2-app\platforms\android\src\main\assets\app\tns_modules\tns-core-modules\application\application.js

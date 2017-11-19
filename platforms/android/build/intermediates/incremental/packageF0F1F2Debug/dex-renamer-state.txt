@@ -1,0 +1,4 @@
+#Sat Nov 18 19:22:58 CET 2017
+base.0=C\:\\Users\\joser\\csgo2-app\\platforms\\android\\build\\intermediates\\transforms\\dex\\F0F1F2\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\joser\\csgo2-app\\platforms\\android\\build\\intermediates\\transforms\\dex\\F0F1F2\\debug\\folders\\1000\\1f\\main\\classes.dex

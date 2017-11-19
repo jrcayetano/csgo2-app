@@ -8,6 +8,10 @@
         "directory": "..\\..\\node_modules\\nativescript-local-notifications"
     },
     {
+        "name": "nativescript-pro-ui",
+        "directory": "..\\..\\node_modules\\nativescript-pro-ui"
+    },
+    {
         "name": "nativescript-theme-core",
         "directory": "..\\..\\node_modules\\nativescript-theme-core"
     },
