@@ -5,6 +5,7 @@ import * as Xml2js from 'nativescript-xml2js';
 import 'rxjs/add/observable/forkJoin'
 import { Observable } from "rxjs/Observable";
 import { ListViewLinearLayout, ListViewEventData, RadListView, ListViewLoadOnDemandMode } from "nativescript-pro-ui/listview";
+import { Router } from "@angular/router";
 
 @Component({
     selector: "ns-home",
@@ -20,7 +21,7 @@ export class HomeComponent implements OnInit {
     usersList = [];
     // This pattern makes use of Angular’s dependency injection implementation to inject an instance of the ItemService service into this class. 
     // Angular knows about this service because it is included in your app’s main NgModule, defined in app.module.ts.
-    constructor(private csgoSrv:CSGOHttpGetService) { }
+    constructor(private csgoSrv:CSGOHttpGetService, private router: Router) { }
 
     ngOnInit(): void {
         this.csgoSrv.getMemberList('').subscribe( memberList => {
@@ -38,11 +39,14 @@ export class HomeComponent implements OnInit {
                     this.usersList = data.map(element => {
                         return  element[0];
                     });
-                    console.dir(this.usersList);
+                    // console.dir(this.usersList);
                 });
             }
         })
  
        
+    }
+    goBack(){
+        this.router.navigate['/items'];
     }
 }

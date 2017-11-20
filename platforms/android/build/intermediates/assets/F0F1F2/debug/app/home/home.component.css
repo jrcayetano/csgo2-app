@@ -1,0 +1,41 @@
+.itemTemplateStackLayout {
+    padding: 5 10 5 10;
+    background-color: #1B2838;
+}
+
+.action-bar {
+    background-color: #171A21;
+    color: #D7E1E8;
+}
+
+.innerOtemTemplateStackLayout {
+    padding: 10;
+    background-color: #28445B;
+}
+
+.labelsStackLayout {
+    margin-left: 15;
+}
+
+.labelName {
+    font-size: 20;
+    margin-bottom: 8;
+    color: #7EBFD5;
+}
+
+.labelTitle {
+    font-size: 14;
+    font-weight: bold;
+    color: #7EBFD5;
+}
+
+.labelText {
+    font-size: 12;
+    color: white;
+    color: #7EBFD5;
+}
+
+.loadOnDemandItemGridLayout {
+    background-color: #7fff7f;
+    color: black;
+}

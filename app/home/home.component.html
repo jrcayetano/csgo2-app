@@ -1,4 +1,6 @@
-<ActionBar title="Team Status" class="action-bar"></ActionBar>
+<ActionBar title="Team Status" class="action-bar" >
+    <NavigationButton android.systemIcon="ic_menu_back"  android.iconVisibility="always"[nsRouterLink]="['/items']" ></NavigationButton>
+</ActionBar>
 <GridLayout tkExampleTitle tkToggleNavButton>
     <!-- >> angular-listview-load-on-demand -->
     <RadListView [items]="usersList">
@@ -9,8 +11,8 @@
                     <Image [src]="item.avatar" stretch="aspectFit" width="100"></Image>
                     <StackLayout class="labelsStackLayout" orientation="vertical">
                         <Label class="labelName" [text]="item.personaname"></Label>
-                        <Label *ngIf="item.gameid && item.gameid === 730" class="labelTitle" text="Conectado a CSGO" textWrap="true"></Label>
-                        <Label *ngIf="!item.gameid || item.gameid !== 730" class="labelTitle" text="No conectado a CSGO" textWrap="true"></Label>
+                        <Label *ngIf="item.gameid && item.gameid === '730'" class="labelTitle" text="Conectado a CSGO" textWrap="true"></Label>
+                        <Label *ngIf="!item.gameid || item.gameid !== '730'" class="labelTitle" text="No conectado a CSGO" textWrap="true"></Label>
                     </StackLayout>
                 </StackLayout>
             </StackLayout>

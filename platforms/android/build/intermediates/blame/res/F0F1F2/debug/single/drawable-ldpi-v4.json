@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\drawable-ldpi-v4\\icon.jpg",
         "source": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\src\\main\\res\\drawable-ldpi\\icon.jpg"
+    },
+    {
+        "merged": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\drawable-ldpi-v4\\emergya_logo.jpg",
+        "source": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\src\\main\\res\\drawable-ldpi\\emergya_logo.jpg"
     }
 ]

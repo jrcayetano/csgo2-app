@@ -14,7 +14,7 @@ export class CSGOHttpGetService {
     constructor(private http: Http) { }
     // http://steamcommunity.com/groups/Valve/memberslistxml?xml=1
     getDataByUser(idUser: string) {
-        idUser = "76561198224522144";
+       // idUser = "76561198224522144";
         const endPoint = '/ISteamUserStats/GetUserStatsForGame/v0002';
         return this.http.get(`${this._serverUrl}${endPoint}/?appid=${this._appid}&key=${this._apiKey}&steamid=${idUser}`).map(res => res.json().playerstats.stats);
     }

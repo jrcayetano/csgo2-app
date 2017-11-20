@@ -4,11 +4,11 @@
         "source": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\background.png"
     },
     {
-        "merged": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\drawable-xxxhdpi\\icon.png",
-        "source": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\icon.png"
-    },
-    {
         "merged": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\drawable-xxxhdpi\\logo.png",
         "source": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\build\\intermediates\\res\\merged\\F0F1F2\\debug\\drawable-xxxhdpi\\icon2.png",
+        "source": "C:\\Users\\joser\\csgo2-app\\platforms\\android\\src\\main\\res\\drawable-xxxhdpi\\icon2.png"
     }
 ]

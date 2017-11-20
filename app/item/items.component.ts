@@ -23,17 +23,14 @@ export class ItemsComponent implements OnInit {
     constructor(private itemService: ItemService, private csgoSrv:CSGOHttpGetService) { }
 
     ngOnInit(): void {
-        Xml2js.parseString('<root>Hellooo</root>', (err, result) => {
-            console.dir(result);
-        } );
-        this.items = this.itemService.getItems();
-        this.csgoSrv.getDataByUser('id').subscribe(dataUser => {
+        this.csgoSrv.getDataByUser('76561198224522144').subscribe(dataUser => {
             this.datos = dataUser;
         }, error => {
             console.log(error);
         })
+        /*
         Observable.interval(500 * 60).subscribe( x => {
-            this.csgoSrv.getUserStatus('id').subscribe(dataUserStatus => {
+            this.csgoSrv.getUserStatus('76561198224522144').subscribe(dataUserStatus => {
                 this.userStatus = dataUserStatus;
                 console.dir(this.userStatus);
                 // this._sendNotification();
@@ -45,7 +42,7 @@ export class ItemsComponent implements OnInit {
             }, error => {
                 console.log(error);
             })
-        })
+        })*/
        
         
     }
