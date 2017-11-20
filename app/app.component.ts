@@ -24,7 +24,7 @@ export class AppComponent implements OnInit {
                     this._sendNotification('Usuario conectado a CSGO');
                     this.avisado = true;
                 }else {
-                    if(!this.userStatus[0]['gameid'] || (this.userStatus[0]['gameid'] && this.userStatus[0]['gameid'] !== '730' )) {
+                    if(this.avisado && (!this.userStatus[0]['gameid'] || (this.userStatus[0]['gameid'] && this.userStatus[0]['gameid'] !== '730' ))) {
                         console.log('NO NOTIFICA');
                         this.avisado = false;
                         this._sendNotification('Usuario desconectado de CSGO');
@@ -42,7 +42,6 @@ export class AppComponent implements OnInit {
             title: 'CSGO Emergya',
             body: mensaje,
             badge: 1,
-            ongoing: true, // makes the notification ongoing (Android only)
             smallIcon: 'res://heart',
             sound: "customsound-ios.wav", // falls back to the default sound on Android
           }]).then(
